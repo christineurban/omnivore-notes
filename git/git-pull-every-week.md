@@ -27,7 +27,7 @@ Tasks
  - `(branch-name) $ git rebase master`
 
 
-## Alembic Issue (Backend Core)
+## Alembic Issue
 
 `(branch-name) $ alembic downgrade -1`
 
