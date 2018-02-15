@@ -29,18 +29,11 @@ Tasks
 
 ## Alembic Issue
 
-`(branch-name) $ alembic downgrade -1`
-
-`(branch-name) $ git co master`
-
-`(master) $ ./migrate.sh`
-
-`(master) $ git co branch-name`
-
-`(branch-name) $ git rebase origin/master`
-
-`(branch-name) $ ./migrate.sh`
-
-`(branch-name) $ git commit -am 'Message'`
-
-`(branch-name) $ git push -f`
+- `(branch-name) $ alembic downgrade -1`
+- `(branch-name) $ git co master`
+- `(master) $ ./migrate.sh`
+- `(master) $ git co branch-name`
+- `(branch-name) $ git rebase origin/master`
+- `(branch-name) $ ./migrate.sh`
+- `(branch-name) $ git commit -am 'Message'`
+- `(branch-name) $ git push -f`
