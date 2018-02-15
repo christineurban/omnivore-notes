@@ -1,6 +1,6 @@
 # Misc
 
-**Naming Conventions**
+## Naming Conventions
  
     future_input_schema   # requests
     future_schema   # response
