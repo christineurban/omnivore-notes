@@ -9,8 +9,7 @@
  read from Queue
  
 
-## Environment
-**Import error**
+## Enviroment Import error
     
     . activate   # activate
 
@@ -20,12 +19,12 @@
     ./init.sh
 
 
-**SQL**
+## SQL
 
     \G   # instead of ; for pretty output
 
 
-**grep**
+## grep
 
     grep -r <what-is-searched> <where-to-search>
     

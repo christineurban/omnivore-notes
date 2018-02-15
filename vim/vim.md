@@ -35,11 +35,11 @@ delete line / copy (yank) line
 
     dd / yy
 
-delete to end of line
+delete / yank to end of line
 
     d$ / y$
 
-delete to beginning of line
+delete / yank to beginning of line
 
     d^ / y^
 
