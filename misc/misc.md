@@ -9,7 +9,7 @@
  read from Queue
  
 
-## Enviroment Import error
+## Environment Import error
     
     . activate   # activate
 
