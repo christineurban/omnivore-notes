@@ -21,7 +21,8 @@
 
 
 **SQL**
-`\G` instead of `;` for pretty output
+
+    \G   # instead of ; for pretty output
 
 
 **grep**

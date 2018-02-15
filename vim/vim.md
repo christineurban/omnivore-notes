@@ -5,7 +5,7 @@ list current open vim sessions
 
 go to particular vim session
 
-    fg %<job-id> (from jobs)
+    fg %<job-id>   # from jobs
     
     # ex: fg %3
 
