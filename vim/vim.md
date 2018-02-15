@@ -1,55 +1,74 @@
 # Vim
 list current open vim sessions
-`jobs`
+
+    jobs
 
 go to particular vim session
-`fg %<job-id>` (from `jobs`)
-ex: `fg %3`
+
+    fg %<job-id> (from jobs)
+    
+    # ex: fg %3
 
 kill particular vim session
-`kill %<job-id>`
+
+    kill %<job-id>
 
 ## Searching
 search
-`/<what you are searching>`
+
+    /<what-you-are-searching>
 
 search and replace
-`:%s/<thing to replace>/<replace with>/gc` (global confirm)
+
+    :%s/<thing-to-replace>/<replace-with>/gc   # global confirm
 
 clear search
-`/sdkfhlkdjf` = won't be able to find gibberish and will clear last search
+
+    /sdkfhlkdjf   # won't be able to find and will clear last search
 
 ## Shortcuts
 save / quit / save and quit
-`:w` / `:q` / `:wq`
+
+    :w / :q / :wq
 
 delete line / copy (yank) line
-`dd` / `yy`
+
+    dd / yy
 
 delete to end of line
-`d$` / `y$`
+
+    d$ / y$
 
 delete to beginning of line
-`d^` / `y^`
+
+    d^ / y^
 
 put cursor at end of line
-`A`
+
+    A
 
 ## Splits
 split (open new file)
-`:%sp`
+
+    :%sp
 
 current directory
-`%:h` + tab
+
+    %:h   # + tab to expand
 
 jump between files
-`[` and `]`
+
+    [   # up
+    ]   # down
 
 maximize split
-`+`
+
+    +
 
 minimize split
-`-`
+
+    -
 
 equal size splits
-`=`
+
+    =
