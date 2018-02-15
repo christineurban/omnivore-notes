@@ -47,6 +47,28 @@ put cursor at end of line
 
     A
 
+sort
+
+    :sort
+
+expand fold
+
+    # space bar
+
+refold current fold
+
+    za
+
+refold all
+
+    zm
+
+see full path of current file
+
+    # 1 then Ctrl+G
+
+
+
 ## Splits
 split (open new file)
 

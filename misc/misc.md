@@ -31,7 +31,7 @@
     
     # grep -r bugsnag src
 
-*flags*
+    ### flags
 
     -i   # case insensitive
     -l   # file name only
