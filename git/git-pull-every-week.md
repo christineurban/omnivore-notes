@@ -3,7 +3,7 @@
 Backend Core
 - `(master) $ ../dev/backend-core`
 - `(master) $ ./init.sh` (also runs ./migrate.sh) 
-- (see Alembic Issue if issue)
+- (see [Alembic Issue](##alambic-issue) if issue)
 - delete branches*
 
 Panel
