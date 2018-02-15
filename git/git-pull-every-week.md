@@ -22,7 +22,7 @@ Tasks
 
 \*delete branches  
  - `(master) $ git br -vv` (list which branches are gone, verbose) 
- - `(master) $ git br -D` (delete branches marked done) 
+ - `(master) $ git br -D branch-name` (delete branches marked done) 
  - `(master) $ git co branch-name`
  - `(branch-name) $ git rebase master`
 
