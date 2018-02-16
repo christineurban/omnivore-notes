@@ -5,8 +5,8 @@
     future_input_schema   # requests
     future_schema   # response
 
- write to Exchange
- read from Queue
+write to Exchange
+read from Queue
  
 
 ## Environment Import error

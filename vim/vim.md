@@ -5,13 +5,13 @@ list current open vim sessions
 
 go to particular vim session
 
-    fg %<job-id>   # from jobs
+    fg <job-id>   # from jobs
     
-    # ex: fg %3
+    # ex: fg 3
 
 kill particular vim session
 
-    kill %<job-id>
+    kill <job-id>
 
 ## Searching
 search
