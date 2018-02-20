@@ -2,27 +2,27 @@
 
 Backend Core (see [Alembic Issue](#alembic-issue) if issue)
 
-    (master) $ ../dev/backend-core
+    (master) $ ../backend-core
     (master) $ ./init.sh  # also runs ./migrate.sh
     
     # delete branches*
 
 Panel
 
-    (master) $ ../dev/panel
+    (master) $ ../panel
     
     # delete branches*
 
 API
 
-    (master) $ ../dev/api
+    (master) $ ../api
     
     # go to tab 2 and restart API
     # delete branches*
 
 Tasks
 
-    (master) $ ../dev/tasks
+    (master) $ ../tasks
     
     # go to tab 3 and restart tasks
     # delete branches*
