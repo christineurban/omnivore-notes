@@ -7,7 +7,7 @@ Backend Core (see [Alembic Issue](#alembic-issue) if issue)
     (master) $ git pull
     (master) $ ./init.sh  # also runs ./migrate.sh
     
-    # delete branches*
+    # delete and rebase branches*
 
 Panel
 
@@ -15,7 +15,7 @@ Panel
              $ git co master
     (master) $ git pull
     
-    # delete branches*
+    # delete and rebase branches*
 
 API
 
@@ -24,7 +24,7 @@ API
     (master) $ git pull
     
     # go to tab 2 and restart API
-    # delete branches*
+    # delete and rebase branches*
 
 Tasks
 
@@ -33,11 +33,16 @@ Tasks
     (master) $ git pull
     
     # go to tab 3 and restart tasks
-    # delete branches*
+    # delete and rebase branches*
 
 \*delete branches  
 
     (master) $ git br -vv   # list which branches are gone, verbose
     (master) $ git br -D branch-name   # delete branches marked done
+
+\*rebase branches
     (master) $ git co branch-name
+    (branch-name) $ git st   # if changes do git stash FIRST
     (branch-name) $ git rebase master
+    (branch-name) $ git st   # if diverged do git push -f
+    (branch-name) $ git stash pop   # if changes were stashed
