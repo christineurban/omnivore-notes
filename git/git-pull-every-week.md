@@ -41,6 +41,7 @@ Tasks
     (master) $ git br -D branch-name   # delete branches marked done
 
 \*rebase branches
+
     (master) $ git co branch-name
     (branch-name) $ git st   # if changes do git stash FIRST
     (branch-name) $ git rebase master
