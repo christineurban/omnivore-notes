@@ -43,7 +43,8 @@ Tasks
 \*rebase branches
 
     (master) $ git co branch-name
-    (branch-name) $ git st   # if changes do git stash FIRST
+    (branch-name) $ git st    
+    (branch-name) $ git stash # if any changes
     (branch-name) $ git rebase master
     (branch-name) $ git st   # if diverged do git push -f
     (branch-name) $ git stash pop   # if changes were stashed
