@@ -35,6 +35,22 @@ Tasks
     # go to tab 3 and restart tasks
     # delete and rebase branches*
 
+Marketplace UI
+
+             $ cd ../marketplace-ui
+             $ git co master
+    (master) $ git pull
+    
+    # delete and rebase branches*
+
+Marketplace API
+
+             $ cd ../marketplace-api
+             $ git co master
+    (master) $ git pull
+    
+    # delete and rebase branches*
+
 \*delete branches  
 
     (master) $ git br -vv   # list which branches are gone, verbose
